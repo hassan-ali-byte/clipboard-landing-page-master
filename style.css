@@ -208,7 +208,7 @@ section {
   border-bottom: 3px solid var(--primary-500-dark);
   box-shadow: 0 4px 12px -4px var(--primary-500);
   cursor: pointer;
-  transition: opacity 0.25s ease, transform 0.25s ease;
+  transition: opacity 0.25s ease, transform 0.25s ease ;
 }
 
 .blue-btn {
@@ -272,7 +272,7 @@ dt img {
 /* ----- Footer ----- */
 footer {
   margin-top: var(--space-xl);
-  padding: var(--space-sm);
+  padding: var(--space-sm) var(--space-md) ;
   background-color: var(--neutral-100);
 }
 
